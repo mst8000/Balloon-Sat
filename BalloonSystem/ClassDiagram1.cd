@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="BalloonSystem.clsSerialControl" Collapsed="true">
+    <Position X="1.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IIBAAAAAAAgCIAAACAAAAAgAAAAAACAAAEBEgAGUAAA=</HashCode>
+      <FileName>clsSerialControl.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BalloonSystem.RotatorSerialControl" Collapsed="true">
+    <Position X="1.25" Y="4.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAADgAEAAAAAAAAAAAAAAQAEgAISgAIAAAAAAA=</HashCode>
+      <FileName>clsSerialControl.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BalloonSystem.clsTcpControl" Collapsed="true">
+    <Position X="12" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAQBAABQAAACAQAAAAAQAAAAAAAAAAAAIAQAAAAAAA=</HashCode>
+      <FileName>clsTcpControl.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BalloonSystem.clsTracking" Collapsed="true">
+    <Position X="13.75" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>BExAAABMAAAAQACIBEAAABAAQAAAAgJAAAgAGQJEBAA=</HashCode>
+      <FileName>clsTracking.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BalloonSystem.frmMain" Collapsed="true">
+    <Position X="8.5" Y="1.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Delegate Name="BalloonSystem.frmMain.tbxTcpLogAppendTextDelegate" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>frmMain.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="BalloonSystem.frmMain.tbxSerialLogAppendTextDelegate" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>frmMain.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="BalloonSystem.frmMain.tbxSystemLogAppendTextDelegate" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>frmMain.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="BalloonSystem.frmMain.UpdateGpsDataDelegate" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>frmMain.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="BalloonSystem.frmMain.btnRotatorOpenChangeTextDelegate" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>frmMain.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>VdnGV+nCKyZQhGYhBwOZcmOOfUeirSKTlXTI1XdCLbQ=</HashCode>
+      <FileName>frmMain.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BalloonSystem.My.MyApplication" Collapsed="true">
+    <Position X="13.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAIAAAAAAAQAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BalloonSystem.My.MySettings" Collapsed="true">
+    <Position X="8.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIBAAAAAAAQAAFAAIBAABAABAAAAAAQAGABBQAE=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TcpServerLibrary.TcpServer" Collapsed="true">
+    <Position X="10.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="TcpServerLibrary.MessageReceivedEventArgs" Collapsed="true">
+    <Position X="12" Y="1.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BalloonSystem.frmVersion" Collapsed="true">
+    <Position X="10.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQACAgAAASAAAAAAAACEAABCgAAAAAAAAACACAAQAAA=</HashCode>
+      <FileName>frmVersion.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BalloonSystem.clsKmlWriter" Collapsed="true">
+    <Position X="8.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>clsKmlWriter.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NmeaAnalyzeLibrary.clsNmeaAnalyzer" Collapsed="true">
+    <Position X="10.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BalloonSystem.LogWriterBase" Collapsed="true">
+    <Position X="3.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAQ=</HashCode>
+      <FileName>clsLogWriter.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BalloonSystem.TcpPortLogWriter" Collapsed="true">
+    <Position X="3.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>clsLogWriter.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BalloonSystem.SerialPortLogWriter" Collapsed="true">
+    <Position X="6" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>clsLogWriter.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BalloonSystem.GpsLogWriter" Collapsed="true">
+    <Position X="1.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>clsLogWriter.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Module Name="BalloonSystem.My.MySettingsProperty" Collapsed="true">
+    <Position X="8.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Module>
+  <Module Name="BalloonSystem.My.Resources.Resources" Collapsed="true">
+    <Position X="10.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAIAQAAAAAABAgBAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Module>
+  <Font Name="メイリオ" Size="9" />
+</ClassDiagram>
