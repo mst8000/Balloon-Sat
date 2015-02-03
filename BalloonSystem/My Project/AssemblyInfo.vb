@@ -14,7 +14,7 @@ Imports System.Runtime.InteropServices
 <Assembly: AssemblyDescription("バルーンサット追尾プログラム")> 
 <Assembly: AssemblyCompany("Wakayama Univ. WSP")> 
 <Assembly: AssemblyProduct("Balloon System")> 
-<Assembly: AssemblyCopyright("Copyright © 2014 Masato Yokotani")> 
+<Assembly: AssemblyCopyright("Copyright © 2014 Wakayama Univ. WSP")> 
 <Assembly: AssemblyTrademark("")> 
 
 <Assembly: ComVisible(False)> 
